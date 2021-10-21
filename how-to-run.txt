@@ -1,0 +1,9 @@
+1. Build vue js to dist folder
+cd ./client
+npm run build
+
+2. Gzip file vuejs-nodejs.zip to deploy aws beanstalk at ./prod-build folder
+cd ./server
+gulp   
+
+3. go to beanstalk on aws console to upload
